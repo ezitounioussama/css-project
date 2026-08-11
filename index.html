@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio of Oussama Ezitouni - CSS Project">
+  <title>Oussama Ezitouni | Portfolio</title>
+
+  <!-- Roboto font from Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+
+  <!-- Our stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <header class="site-header">
+    <nav class="navbar">
+      <a class="brand" href="#home">OE<span class="brand-dot">.</span></a>
+      <ul class="nav-list">
+        <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#work">Work</a></li>
+        <li class="nav-item"><a class="nav-link" href="#resume">Resume</a></li>
+        <li class="nav-item"><a class="nav-link nav-link-cta" href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="page">
+
+    <!-- ===== HOME / HERO ===== -->
+    <section class="hero" id="home">
+      <div class="hero-inner">
+        <img class="hero-avatar" src="https://github.com/ezitounioussama.png" alt="Photo of Oussama Ezitouni">
+        <p class="hero-eyebrow">Portfolio &mdash; 2026</p>
+        <h1 class="hero-title">Oussama Ezitouni</h1>
+        <p class="hero-subtitle">
+          IT specialist learning web development &mdash;
+          building things one checkpoint at a time.
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#work">View my work</a>
+          <a class="btn btn-ghost" href="#contact">Get in touch</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== ABOUT ===== -->
+    <section class="section section-light" id="about">
+      <div class="container">
+        <p class="section-eyebrow">01 &mdash; About</p>
+        <h2 class="section-title">About Me</h2>
+
+        <div class="about-grid">
+          <div class="about-text">
+            <p class="lead">
+              Hello! My name is Oussama Ezitouni. I work in the IT field and I am
+              currently learning web development at GoMyCode.
+            </p>
+            <p>
+              I enjoy solving problems, automating boring tasks, and turning ideas into
+              real projects. This page started as plain HTML in the last checkpoint,
+              and now it has a full stylesheet of its own.
+            </p>
+            <ul class="fact-list">
+              <li class="fact"><span class="fact-value">3+</span> projects on GitHub</li>
+              <li class="fact"><span class="fact-value">2</span> years in IT</li>
+              <li class="fact"><span class="fact-value">∞</span> cups of coffee</li>
+            </ul>
+          </div>
+
+          <figure class="about-media">
+            <video class="about-video" controls poster="">
+              <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+              Sorry, your browser does not support the video tag.
+            </video>
+            <figcaption class="media-caption">A short clip about my learning journey.</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== WORK ===== -->
+    <section class="section" id="work">
+      <div class="container">
+        <p class="section-eyebrow">02 &mdash; Work</p>
+        <h2 class="section-title">My Work</h2>
+
+        <div class="card-grid">
+          <article class="card">
+            <div class="card-badge card-badge-purple">01</div>
+            <h3 class="card-title">Warehouse Lens</h3>
+            <p class="card-text">A dashboard project for visualizing warehouse data.</p>
+            <ul class="tag-list">
+              <li class="tag">Data viz</li>
+              <li class="tag">Inventory</li>
+            </ul>
+            <a class="card-link" href="https://github.com/ezitounioussama/WarehouseLens" target="_blank">
+              View on GitHub &rarr;
+            </a>
+          </article>
+
+          <article class="card">
+            <div class="card-badge card-badge-pink">02</div>
+            <h3 class="card-title">Cybersecurity Dashboard</h3>
+            <p class="card-text">A dashboard for monitoring security events and alerts.</p>
+            <ul class="tag-list">
+              <li class="tag">Monitoring</li>
+              <li class="tag">Alerts</li>
+            </ul>
+            <a class="card-link" href="https://github.com/ezitounioussama/cybersecurity-monitoring-dashboard" target="_blank">
+              View on GitHub &rarr;
+            </a>
+          </article>
+
+          <article class="card">
+            <div class="card-badge card-badge-orange">03</div>
+            <h3 class="card-title">RIASEC Career Guide</h3>
+            <p class="card-text">A career orientation tool based on the RIASEC model.</p>
+            <ul class="tag-list">
+              <li class="tag">Quiz</li>
+              <li class="tag">Guidance</li>
+            </ul>
+            <a class="card-link" href="https://github.com/ezitounioussama/riasec-career-guide" target="_blank">
+              View on GitHub &rarr;
+            </a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== RESUME ===== -->
+    <section class="section section-light" id="resume">
+      <div class="container">
+        <p class="section-eyebrow">03 &mdash; Resume</p>
+        <h2 class="section-title">Resume</h2>
+
+        <div class="resume-grid">
+          <div class="resume-block">
+            <h3 class="block-title">Experience</h3>
+            <table class="resume-table">
+              <thead>
+                <tr>
+                  <th class="table-head">Period</th>
+                  <th class="table-head">Role</th>
+                  <th class="table-head">Company</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="table-row">
+                  <td class="table-cell table-cell-period">2024 &ndash; Present</td>
+                  <td class="table-cell">IT Specialist</td>
+                  <td class="table-cell">Intelcia</td>
+                </tr>
+                <tr class="table-row">
+                  <td class="table-cell table-cell-period">2026 &ndash; Present</td>
+                  <td class="table-cell">Web Development Student</td>
+                  <td class="table-cell">GoMyCode</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <div class="resume-block">
+            <h3 class="block-title">Skills</h3>
+            <ul class="skill-list">
+              <li class="skill">
+                <span class="skill-name">HTML &amp; semantic markup</span>
+                <span class="skill-bar"><span class="skill-fill skill-fill-90"></span></span>
+              </li>
+              <li class="skill">
+                <span class="skill-name">CSS &amp; layout</span>
+                <span class="skill-bar"><span class="skill-fill skill-fill-75"></span></span>
+              </li>
+              <li class="skill">
+                <span class="skill-name">Git &amp; GitHub</span>
+                <span class="skill-bar"><span class="skill-fill skill-fill-80"></span></span>
+              </li>
+              <li class="skill">
+                <span class="skill-name">Linux command line</span>
+                <span class="skill-bar"><span class="skill-fill skill-fill-85"></span></span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CONTACT ===== -->
+    <section class="section" id="contact">
+      <div class="container container-narrow">
+        <p class="section-eyebrow">04 &mdash; Contact</p>
+        <h2 class="section-title">Contact Me</h2>
+        <p class="lead lead-center">Have a project or a question? Send me a message.</p>
+
+        <form class="contact-form" action="#" method="post">
+          <div class="form-row">
+            <div class="form-group">
+              <label class="form-label" for="name">Full Name</label>
+              <input class="form-input" type="text" id="name" name="name" placeholder="Your name" required>
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="email">Email</label>
+              <input class="form-input" type="email" id="email" name="email" placeholder="you@example.com" required>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="subject">Subject</label>
+            <select class="form-select" id="subject" name="subject">
+              <option value="job">Job opportunity</option>
+              <option value="project">Project collaboration</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="message">Message</label>
+            <textarea class="form-textarea" id="message" name="message" rows="5"
+              placeholder="Write your message here..." required></textarea>
+          </div>
+
+          <button class="btn btn-primary btn-block" type="submit">Send Message</button>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p class="footer-copy">&copy; 2026 Oussama Ezitouni &mdash; CSS Project (GoMyCode Checkpoint)</p>
+      <ul class="footer-links">
+        <li class="footer-item"><a class="footer-link" href="https://github.com/ezitounioussama" target="_blank">GitHub</a></li>
+        <li class="footer-item"><a class="footer-link" href="#home">Back to top</a></li>
+      </ul>
+    </div>
+  </footer>
+
+</body>
+</html>
